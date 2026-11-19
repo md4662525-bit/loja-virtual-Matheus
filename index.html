@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitrine Criativa</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #263238;
+      background-color: #f4f7f8;
+    }
+
+    header {
+      padding: 32px 20px;
+      text-align: center;
+      color: white;
+      background-color: #245c63;
+    }
+
+    main {
+      width: min(100% - 32px, 900px);
+      margin: 30px auto;
+    }
+
+    .descricao {
+      margin-bottom: 28px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px;
+    }
+
+    .produto {
+      padding: 20px;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 2px 8px #00000015;
+    }
+
+    .produto h3 {
+      color: #245c63;
+    }
+
+    .preco {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .contato {
+      margin-top: 28px;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      background-color: #e2eeee;
+    }
+
+    footer {
+      padding: 16px;
+      text-align: center;
+      color: white;
+      background-color: #263238;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Vitrine Criativa</h1>
+    <p>Produtos especiais para deixar o dia a dia mais colorido.</p>
+  </header>
+
+  <main>
+    <section class="descricao">
+      <h2>Bem-vindos à nossa loja</h2>
+      <p>
+        A Vitrine Criativa é uma loja  de produtos criativos,
+        úteis e feitos para inspirar novas ideias.
+      </p>
+    </section>
+
+    <section>
+      <h2>Nossos produtos</h2>
+
+      <div class="produtos">
+        <article class="produto">
+          <h3>Caderno Colorido</h3>
+          <p>Caderno para anotações, estudos e desenhos.</p>
+          <p class="preco">R$ 24,90</p>
+        </article>
+
+        <article class="produto">
+          <h3>Caneca Criativa</h3>
+          <p>Caneca  com uma estampa divertida.</p>
+          <p class="preco">R$ 32,00</p>
+        </article>
+
+        <article class="produto">
+          <h3>Ecobag Urbana</h3>
+          <p>Bolsa reutilizável para carregar pequenos objetos.</p>
+          <p class="preco">R$ 39,90</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contato">
+      <h2>Fale com a loja</h2>
+      <p>E-mail : @vitrinecriativa.com.br</p>
+      <p>Este contato é apenas se necessário.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Loja  criada para satisfazer os nossos clientes.</p>
+  </footer>
